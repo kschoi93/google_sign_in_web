@@ -9,13 +9,13 @@ environment:
   sdk: ">=3.2.0 <4.0.0"
   flutter: ">=3.16.0"
 
-flutter:
-  plugin:
-    implements: google_sign_in
-    platforms:
-      web:
-        pluginClass: GoogleSignInPlugin
-        fileName: google_sign_in_web.dart
+# flutter:
+#   plugin:
+#     implements: google_sign_in
+#     platforms:
+#       web:
+#         pluginClass: GoogleSignInPlugin
+#         fileName: google_sign_in_web.dart
 
 dependencies:
   flutter:
